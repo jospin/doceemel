@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <RightMargin>2.5cm</RightMargin>
+  <Body>
+    <Style />
+    <Height>12.5cm</Height>
+    <ColumnSpacing>1cm</ColumnSpacing>
+  </Body>
+  <TopMargin>2.5cm</TopMargin>
+  <DataSources>
+    <DataSource Name="SisGerCompNovo">
+      <rd:DataSourceID>3aace8b8-8b0e-47be-b9eb-a913e71b12f4</rd:DataSourceID>
+      <DataSourceReference>SisGerCompNovo</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <Width>19.25cm</Width>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="data">
+          <DataField>data</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="memoria">
+          <DataField>memoria</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="cpu">
+          <DataField>cpu</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SisGerCompNovo</DataSourceName>
+        <CommandText>Select B.data, memoria, cpu From (
+
+select hardware, data, media as memoria
+From Teste
+Where hardware = 'memória'
+
+) as A
+Inner Join
+(
+select hardware, data, media as cpu
+From Teste
+Where hardware = 'cpu1'
+) as B on A.data = B.data</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>2.5cm</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <PageHeight>29.7cm</PageHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <PageWidth>21cm</PageWidth>
+  <rd:ReportID>e8bd4fec-38c4-4bab-92b8-743e02a3b0f6</rd:ReportID>
+  <BottomMargin>2.5cm</BottomMargin>
+  <Language>en-US</Language>
+</Report>

@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportsCelso1", "ReportsCelso1.rptproj", "{DF2F776D-D74B-43C0-B465-308D49B74A24}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugLocal = DebugLocal
+		Production = Production
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.Debug.ActiveCfg = Debug
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.Debug.Build.0 = Debug
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.Debug.Deploy.0 = Debug
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.DebugLocal.ActiveCfg = DebugLocal
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.DebugLocal.Build.0 = DebugLocal
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.Production.ActiveCfg = Production
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.Production.Build.0 = Production
+		{DF2F776D-D74B-43C0-B465-308D49B74A24}.Production.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

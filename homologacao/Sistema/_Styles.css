@@ -1,0 +1,675 @@
+/* Default CSS Stylesheet for a new Web Application project */
+/*	verde + escuro = #BEDAAA
+	verde + claro = #DFEDD6
+	cinza = 
+	laranja = 
+	azul =
+	lilas = #A8ABC4
+	bege claro = #F7F4EF*/
+BODY
+{
+    BACKGROUND-COLOR: white;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    MARGIN: 0px; 
+}
+
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+    COLOR: #003366;
+}
+H1	{	
+	font-family: Verdana;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family: Verdana;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana;
+	font-size:	1.58em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	1em;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	font-size:	1em;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial;
+	}	
+
+A:link
+{
+	color: gray;
+	text-decoration: none;
+}	
+		
+A:visited	{	
+	color: gray;
+	text-decoration: none;
+	}	
+		
+A:active
+{
+	font-weight: bold;
+	color: RED;
+	text-decoration: none;
+}	
+		
+A:hover
+{
+	font-weight: bold;
+	color: #3333cc;
+	text-decoration: underline;
+}
+	
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+
+IMG 	{
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+IMG.semmargem 	{
+	margin: 0px;
+	margin-bottom: 0px;
+	}
+	
+.Texto 
+{
+	color: chocolate;
+	font-size: 8pt;
+	font-family: Arial;
+	border-style: groove;
+}
+
+
+.Texto_desab 
+{
+	color: chocolate;
+	font-size: 8pt;
+	font-family: Arial;
+	border-style: solid;
+	border-width: 1px;
+	/*border-color: DimGray;*/
+	border-color: #DADFE4;
+	background-color: WhiteSmoke;
+}
+
+.Numero
+{
+	color: chocolate;
+	font-size: 8pt;
+	font-family: Arial;
+	border-style: groove;
+	text-align: right;
+}
+
+
+.Teste
+{
+	font-size: 8pt;
+	font-family: Arial;
+	border-style: groove;
+	color: chocolate;
+}
+
+.radio
+{
+	
+	font-size: 8pt;
+	color: Chocolate;
+	font-family: Arial;	
+	
+}
+.Label
+{
+	font-size: 8pt;
+	color:dimgray;
+	font-family: Arial;
+	padding-left:10px;
+	background-color: transparent;
+}
+
+.Label_right
+{
+	font-size: 8pt;
+	color:dimgray;
+	font-family: Arial;
+	padding-left:10px;
+	background-color: transparent;
+	text-align: right;
+}
+
+
+a.Label:link { text-decoration: underline; border-style: none; font-weight:bold;}
+a.Label:visited { text-decoration: underline; border-style: none; font-weight:bold;}
+a.Label:hover { text-decoration: underline; border-style: none;  font-weight:bold;}
+
+
+.LabelPesquisa
+{
+	font-size: 8pt;
+	font-weight: bold;
+	color:dimgray;
+	padding-left:10px;
+	font-family: Arial;
+	background-color: transparent;
+}
+
+.LabelDataGrid
+{
+	font-size: 8pt;
+	font-weight: bold;
+	color:dimgray;
+	font-family: Arial;
+	background-color: transparent;
+}
+
+.LabelLembrete
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: black;
+	font-family: Arial;
+	background-color: transparent;
+}
+.LabelValidacao
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: red;
+	font-family: Arial;
+	background-color: transparent;
+}
+.c
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: chocolate;
+	font-family: Arial;
+}
+.labelvermelho
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: red;
+	font-family: Arial;
+}
+table.Rodape
+{	 
+	 width: 940px;	 
+	 margin-top:0;	 
+	 border-style: none;
+	 border-color:Black;
+	 border-width:0;	 
+}
+
+TD.Rodape
+{
+	DISPLAY: inline; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 8pt; 
+	WIDTH: 108.71%; 
+	COLOR: DimGray; 
+	BORDER-TOP-STYLE: solid; 
+	BORDER-TOP-WIDTH: 0PX; 
+	border-top-color:White;
+	FONT-FAMILY: Arial; 
+	BORDER-RIGHT-STYLE: none; 
+	BORDER-LEFT-STYLE: none; 
+	HEIGHT: 14px; 
+	BACKGROUND-COLOR: #DADFE4;/*Gainsboro ; */
+	BORDER-BOTTOM-STYLE: none;
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+
+.cabecalho 
+{
+	border-style: none; 
+	border-color:Black;
+	border-width:0;
+	margin:0;
+	width: 940px;
+}                                                             
+
+table.MenuPrincipal
+{
+	width: 740px;
+	height: 78px;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-left: 16px;
+	margin-right:-4;
+	border-style:none;
+	border-width:0;	
+}
+
+  
+.MenuPrincipal
+{
+	color: #FF3300;
+	/* color: dimgray; #D14705; #FF3300; */ 
+}
+
+a.LinkMenuPrin:active { text-decoration: underline; color: #FF3300; font-weight: bold} 
+a.LinkMenuPrin:visited { text-decoration: none; color: #FF3300; font-weight: normal}
+a.LinkMenuPrin:link { text-decoration: none; color: #FF3300; font-weight: normal}
+a.LinkMenuPrin:hover { color: dimgray; font-weight: bold} 
+
+TD.ItemMenuPrin
+{
+	width:  33%;
+	vertical-align:middle;
+	border-width:1;
+	border-style: solid;
+	background-color: #f7f4ef;
+}
+
+TABLE
+{
+	font-size: 8pt;
+	font-family: Arial;
+}
+
+.Bolinha { width: 5px; visibility:visible; }
+
+li.HierarquiaProdutoAtivo 
+{
+	text-decoration: unterline;
+	CURSOR: hand; 
+	COLOR: DimGray; 
+	list-style-type:none; 
+	font-weight:bold; 
+	HEIGhT: 10px; 
+	FONT-FAMILY: 'Arial'; 
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px;
+	vertical-align: top;
+	border-width: 1px;
+    border-top-style: none;
+	border-color: "#ccccc0"; 
+}
+
+a.HierarquiaProdutoAtivo:active { text-decoration: underline; color: DimGray; font-weight: bold;} 
+a.HierarquiaProdutoAtivo:link { text-decoration: underline; color: DimGray; font-weight: bold;} 
+a.HierarquiaProdutoAtivo:visited { text-decoration: underline; color: DimGray; font-weight: bold;} 
+a.HierarquiaProdutoAtivo:hover { text-decoration: underline; color: DimGray; font-weight: bold; } 
+
+li.HierarquiaProduto 
+{
+	CURSOR: hand; 
+	COLOR: DimGray; 
+	list-style-type:none; 
+	font-weight:bold; 
+	HEIGhT: 17px;  
+	vertical-align: top;
+	FONT-FAMILY: 'Arial'; 
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px;
+	border-width: 1px;
+    border-top-style: none;
+	border-color: "#ccccc0"; 
+}
+
+
+a.HierarquiaProduto:hover
+{
+	text-decoration: none; 
+	COLOR: #FF3300; 
+}
+
+div.HierarquiaProduto
+{
+	MARGIN-TOP: 0px; 
+	WIDTH: 192px;
+	margin-right:0;
+	BORDER-STYLE: none;  
+	BORDER-COLOR: black; 
+	HEIGHT: 54px; 
+}
+ul.HierarquiaProduto
+{
+	margin-left: 10px;
+}
+
+
+/*HierarquiaParte { color: Blue; }
+HierarquiaParteAtiva { color: Green; }*/
+
+a.HierarquiaParte { cursor: hand; }
+a.HierarquiaParte:active { text-decoration: none; color: Gray; font-weight: normal; } 
+a.HierarquiaParte:link { text-decoration: none; color: Gray; font-weight: normal; } 
+a.HierarquiaParte:visited { text-decoration: none; color: Gray; font-weight: normal; } 
+a.HierarquiaParte:hover { text-decoration: none; color: Gray; font-weight: bold; } 
+
+li.HierarquiaParte 
+{
+	border-top-style: none; 
+	list-style-type: none; 
+	vertical-align: top;
+	FONT-FAMILY: 'Arial'; 
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px;
+    border-top-style:none;
+    color:Gray;
+}
+
+li.HierarquiaParteAtiva
+{
+	text-decoration: underline;
+	border-top-style: none;
+	color: Gray; 
+	list-style-type: none; 
+	vertical-align: top;
+	FONT-FAMILY: 'Arial'; 
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px;
+}
+
+
+/*a.HierarquiaParteAtiva { cursor: hand;} */
+a.HierarquiaParteAtiva:active {cursor: hand; text-decoration: underline; color: blue; font-weight: normal; } 
+a.HierarquiaParteAtiva:link {cursor: hand; text-decoration: underline; color: green; font-weight: normal; } 
+a.HierarquiaParteAtiva:visited {cursor: hand; text-decoration: underline; color: red; font-weight: normal; } 
+a.HierarquiaParteAtiva:hover {cursor: hand; text-decoration: underline; color: chocolate; font-weight: bold; } 
+
+
+
+li.MenuLateral 
+{
+	CURSOR: hand; 
+	COLOR: DimGray; 
+	list-style-type:none; 
+	font-weight:bold; 
+	HEIGhT: 15; 
+	vertical-align:bottom ;
+	FONT-FAMILY: 'Arial'; 
+	MARGIN-TOP: 9px; 
+	MARGIN-BOTTOM: 9px;
+	border-width: 1px;
+    border-top-style:solid;
+	border-color: "#ccccc0"; 
+}
+
+a.MenuLateral:hover
+{
+	text-decoration: none; 
+	COLOR: #FF3300; 
+}
+div.MenuLateral
+{
+	MARGIN-TOP: 0px; 
+	WIDTH: 192px;
+	margin-right:0;
+	BORDER-STYLE: none;  
+	BORDER-COLOR: black; 
+	HEIGHT: 54px; 
+}
+ul.MenuLateral
+{
+	margin-left: 10px;
+}
+
+a.MenuLateralAtivo:active { text-decoration: underline; color: DimGray; font-weight: bold} 
+a.MenuLateralAtivo:link { text-decoration: underline; color: DimGray; font-weight: bold} 
+a.MenuLateralAtivo:visited { text-decoration: underline; color: DimGray; font-weight: bold} 
+a.MenuLateralAtivo:hover { text-decoration: underline; color: DimGray; font-weight: bold} 
+
+
+div.rightClickMenu 
+{ 
+	background-color: White;
+	color: Black;
+	font-family: Arial;
+	border-color:dimgray;
+	border-width: 1px;
+	border-style:solid;
+	padding: 2px;
+	position:absolute;
+	top:250px;
+	left:20px;
+	height:34px;
+	width:84px;
+	visibility: hidden;
+}
+
+a.rightClickMenu:active { color:Black; font-weight: normal; text-decoration: none; }
+a.rightClickMenu:link { color:Black; font-weight: normal;  text-decoration: none; }
+a.rightClickMenu:visited { color:Black; font-weight: normal;  text-decoration: none; }
+a.rightClickMenu:hover { color:white; background-color: RoyalBlue ; font-weight: normal; text-decoration: none;  }
+
+
+TABLE.Tabela
+{
+	font-size: 8pt;
+	font-family: Arial;
+	background-color: #f7f4ef;
+}
+TD.Tabela
+{
+	WIDTH: 192px;
+	font-size: 8pt;
+	font-family: Arial;
+	background-color: #f7f4ef;
+}
+
+.botao
+{
+	font-size: 8pt;
+	cursor: hand;
+	font-family: Arial;
+	background-color: #f7f4ef;
+}
+
+.botaoHidden
+{
+	visibility: hidden;
+	background-color: #f7f4ef;
+}
+
+.lbotao
+{
+	font-weight: bold;
+	color: black;
+	font-family: Arial;
+	background-color: transparent;
+}
+
+A.lbotao:hover
+{
+	color: white;
+}
+A.lbotao:active
+{
+	background-color: #DFEDD6;
+}
+A.lbotao:visited
+{
+	background-color: #bedaaa;
+}
+
+td.espacadorLateral
+{
+	width: 8px;
+	/*
+	border-color: black;
+	border-style: solid;
+	*/
+}
+
+.ToolTip 
+{
+	position:absolute;
+	top:100;
+	left:75;
+	background-color:LightGoldenrodYellow;
+	border-color:Black;
+	border-style:solid;
+	border-width:1px;
+	margin-top: 3px;
+	padding-left: 3px;
+	color: Black;
+	height:20;
+	width:100;
+	visibility:hidden;
+}
+
+
+a.dgGeral:link { color: Green; text-decoration: none; }
+a.dgGeral:hover { color: Green; text-decoration: underline; }
+a.dgGeral:active { color: Green; text-decoration: none; }
+a.dgGeral:visited { color: Green; text-decoration: none; }
+
+.espacador 
+{
+	width: 10px; 
+	text-decoration: none;
+	}
+
+a.espacador 
+{
+	width: 10px; 
+	text-decoration: none;
+}
+
+.dgGeral { }
+.dgSelectedItem { background-color : ButtonFace; }
+.dgEditItem { background-color :Green }
+.dgHeader  { background-color: DarkCyan; color:White; font-weight:bold; padding-left: 2px; }
+.dgItem	 { color:Black; background-color:White;  }
+.dgAlternatingItem { background-color: WhiteSmoke; }
+.dgFooter { color:Black; background-color:DarkCyan; font-weight:bold; }
+.dgItemDestaque { background-color: WhiteSmoke; color: darkCyan; }
+
+a.dgItemDestaque:active { text-decoration: underline; color: #FF3300; font-weight: bold} 
+a.dgItemDestaque:visited { text-decoration: none; color: #FF3300; font-weight: normal}
+a.dgItemDestaque:link { text-decoration: none; color: #FF3300; font-weight: normal}
+a.dgItemDestaque:hover { color: dimgray; font-weight: bold} 
+
+
+
+.separadorOS 
+{ 
+	WIDTH: 740px; 
+	POSITION: relative; 
+	HEIGHT: 16px; 
+	BACKGROUND-COLOR: lightgrey; 
+	border-top-color:White;
+	border-top-width:thin;
+	border-top-style: solid;
+	border-bottom-color:White;
+	border-bottom-width:thin;
+	border-bottom-style: solid;
+	margin-bottom: 5px;
+}
+
+a.separadorOS:link { font-family: Arial; color:Black; text-decoration:none; font-weight:normal;}
+a.separadorOS:hover { font-family: Arial; color:Black; text-decoration:underline; font-weight:normal;}
+a.separadorOS:link { font-family: Arial; color:Black; text-decoration:none; font-weight:normal;}
+a.separadorOS:link { font-family: Arial; color:Black; text-decoration:none; font-weight:normal;}

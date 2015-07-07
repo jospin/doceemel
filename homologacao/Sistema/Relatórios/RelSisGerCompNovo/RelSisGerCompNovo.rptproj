@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <State>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SourceControl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Enabled&gt;false&lt;/Enabled&gt;
+  &lt;ProjectName /&gt;
+  &lt;AuxPath /&gt;
+  &lt;LocalPath /&gt;
+  &lt;Provider /&gt;
+&lt;/SourceControl&gt;</State>
+  <DataSources>
+    <ProjectItem>
+      <Name>SisGerCompNovo.rds</Name>
+      <FullPath>SisGerCompNovo.rds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <Reports>
+    <ProjectItem>
+      <Name>Grafico1.rdl</Name>
+      <FullPath>Grafico1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>HubSw.rdl</Name>
+      <FullPath>HubSw.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>RelacaoComputadores.rdl</Name>
+      <FullPath>RelacaoComputadores.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>RelacaoDeMaquinas.rdl</Name>
+      <FullPath>RelacaoDeMaquinas.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Teste.rdl</Name>
+      <FullPath>Teste.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>UsuariosEMail.rdl</Name>
+      <FullPath>UsuariosEMail.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Grafico.rdl</Name>
+      <FullPath>Grafico.rdl</FullPath>
+    </ProjectItem>
+  </Reports>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>RelSisGerCompNovo</TargetFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DebugLocal</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>RelSisGerCompNovo</TargetFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>RelSisGerCompNovo</TargetFolder>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

@@ -1,0 +1,18 @@
+dgAlternatingItem
+dgEditItem
+dgHeader
+dgItem
+dgSelectedItem
+
+
+
+a.LinkMenuPrin:link { text-decoration: none; color: #000000; font-weight: normal}
+a.LinkMenuPrin:visited { text-decoration: underline; color: #999999; font-weight: normal}
+a.LinkMenuPrin:hover { color: #CCCCCC; font-weight: bold} 
+a.LinkMenuPrin:active { text-decoration: underline; color: #CCCCCC; font-weight: normal} 
+
+
+
+C:\Program Files\Microsoft SQL Server\MSSQL\data\Estoque_Data.MDF
+
+prs_PermissaoAcesso

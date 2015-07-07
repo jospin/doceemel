@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Estoque", "http://localhost/Estoque/Estoque.vbproj", "{274732CD-7526-4714-B19E-5A6388C651A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{274732CD-7526-4714-B19E-5A6388C651A4}.Debug.ActiveCfg = Debug|.NET
+		{274732CD-7526-4714-B19E-5A6388C651A4}.Debug.Build.0 = Debug|.NET
+		{274732CD-7526-4714-B19E-5A6388C651A4}.Release.ActiveCfg = Release|.NET
+		{274732CD-7526-4714-B19E-5A6388C651A4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>doceemel</Name>
+  <DataSourceID>92fe0c9e-5ed1-4d44-8d57-825a4bab4f6b</DataSourceID>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>data source=sqlserver01.doceemel.com.br;initial catalog=doceemel</ConnectString>
+  </ConnectionProperties>
+</RptDataSource>

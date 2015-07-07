@@ -1,0 +1,76 @@
+.font_branca {FONT-SIZE: 8pt; FONT-FAMILY: Arial, Verdana; color:#FFFFFF}
+.font_cinza {FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial; color:#5E5E5E}
+.font_marrom {FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial; color:#925B15}
+.font_marrom2 {FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial; color:#6F420F}
+.font_bege {FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial; color:#BAA667}
+.font_marron_claropq {FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial; color:#C3922D; font-weight : bold}
+.font_marron_claro {FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial; color:#C3922D}
+
+
+a.font_link_marrom:link, a.font_link_marrom:active, a.font_link_marrom:visited {font-size: 8pt; font-family: Arial, Verdana; color: #693B2C; text-decoration: none;}
+a.font_link_marrom:hover {font-size: 8pt; font-family: Arial, Verdana; color: #FFCC00; text-decoration: underline;}
+
+a.font_link_marrom2:link, a.font_link_marrom2:active, a.font_link_marrom2:visited {font-size: 8pt; font-family: Arial, Verdana; color: #925B15; text-decoration: none;}
+a.font_link_marrom2:hover {font-size: 8pt; font-family: Arial, Verdana; color: #925B15; text-decoration: underline;}
+
+
+<!-- formulario contatos -->
+	{
+	color : red;
+	text-decoration : none;
+	}
+	.input
+	{
+		BORDER-BOTTOM: 1px solid #603913;
+		BORDER-LEFT: 1px solid #603913;
+		BORDER-RIGHT: 1px solid #603913;
+		BORDER-TOP: 1px solid #603913;
+		font-family : Verdana, Arial, Helvetica, sans-serif;
+		font-size : 11px;
+		list-style-type : disc;
+		color : #000000;
+	}
+
+	textarea
+	{
+   		BORDER-BOTTOM: 1px solid #603913;
+		BORDER-LEFT: 1px solid #603913;
+		BORDER-RIGHT: 1px solid #603913;
+		BORDER-TOP: 1px solid #603913;
+		font-family : Verdana, Arial, Helvetica, sans-serif;
+		font-size : 11px;
+		list-style-type : disc;
+		color : #000000;
+	}
+
+	select
+	{
+   		BORDER-BOTTOM: 1px solid #603913;
+		BORDER-LEFT: 1px solid #603913;
+		BORDER-RIGHT: 1px solid #603913;
+		BORDER-TOP: 1px solid #603913;
+		font-family : Verdana, Arial, Helvetica, sans-serif;
+		font-size : 11px;
+		list-style-type : disc;
+		color : #000000;
+	}
+
+	.radio
+	{
+   		BORDER-BOTTOM: 1px solid #FFFFFF;
+		BORDER-LEFT: 1px solid #FFFFFF;
+		BORDER-RIGHT: 1px solid #FFFFFF;
+		BORDER-TOP: 1px solid #FFFFFF;
+		list-style-type : disc;
+		color : #FFFFFF;
+	}
+	
+	.voltar
+	{
+   		font-family : Verdana, Arial, Helvetica, sans-serif;
+		font-size : 10px;
+		font-weight : bold;
+		color: #000000;
+	}
+
+<!-- fim formulario contatos -->

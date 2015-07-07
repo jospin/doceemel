@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "RelSisGerCompNovo", "RelSisGerCompNovo.rptproj", "{349E82A4-C0A9-47F5-86DC-6968959BF49A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugLocal = DebugLocal
+		Production = Production
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.Debug.ActiveCfg = Debug
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.Debug.Build.0 = Debug
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.Debug.Deploy.0 = Debug
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.DebugLocal.ActiveCfg = DebugLocal
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.DebugLocal.Build.0 = DebugLocal
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.Production.ActiveCfg = Production
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.Production.Build.0 = Production
+		{349E82A4-C0A9-47F5-86DC-6968959BF49A}.Production.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

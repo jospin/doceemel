@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <State>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SourceControl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Enabled&gt;false&lt;/Enabled&gt;
+  &lt;ProjectName /&gt;
+  &lt;AuxPath /&gt;
+  &lt;LocalPath /&gt;
+  &lt;Provider /&gt;
+&lt;/SourceControl&gt;</State>
+  <DataSources>
+    <ProjectItem>
+      <Name>doceemel.rds</Name>
+      <FullPath>doceemel.rds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <Reports>
+    <ProjectItem>
+      <Name>Clientes.rdl</Name>
+      <FullPath>Clientes.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pedidos.rdl</Name>
+      <FullPath>Pedidos.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PedidosSintetico(Agrupado).rdl</Name>
+      <FullPath>PedidosSintetico(Agrupado).rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PedidosSintetico.rdl</Name>
+      <FullPath>PedidosSintetico.rdl</FullPath>
+    </ProjectItem>
+  </Reports>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>ReportsCelso1</TargetFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DebugLocal</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>ReportsCelso1</TargetFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>ReportsCelso1</TargetFolder>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>
