@@ -326,7 +326,7 @@ Else
      produto = Request.Form("prod_desej")
      mensagem = Request.Form("mensagem")
 
-     If (EnviarMail(mail, "lucien.carbonare@gmail.com", "Encomenda de produtos - Doce & Mel", MontaMsg(nome, mail, cidade, estado, prod_desej, mensagem))) Then
+     If (EnviarMail(mail, "doceemel@live.com", "Encomenda de produtos - Doce & Mel", MontaMsg(nome, mail, cidade, estado, prod_desej, mensagem))) Then
       Response.write "<b>Erro ao enviar solicitação de encomenda.</b>"
      Else
       Response.write "<font color=#848284 size=1 face=Verdana><b>Obrigado!</b><br><br>Sua solicitação foi enviada com sucesso.<br>Os preços dos produtos serão informados na resposta à sua solicitação de encomenda.<br>Em breve retornaremos seu pedido.</font><br><br><br><br><br><font color=#603913 size=1 face=Verdana, Arial, Helvetica, sans-serif><a href=encomende.asp><font color=#848284 size=1 face=Verdana>&laquo; voltar</font></a></font><br><br><br><br><br><br><br><br><br><br><br><br><br>"

@@ -135,7 +135,7 @@ Else
      conheceu = Request.Form("conheceu")
      mensagem = Request.Form("mensagem")
 
-     If (EnviarMail(mail, "lucien.carbonare@gmail.com", ":: Contato Site Doce&Mel ::", MontaMsg(nome, mail, cidade, estado, conheceu, mensagem))) Then
+     If (EnviarMail(mail, "doceemel@live.com", ":: Contato Site Doce&Mel ::", MontaMsg(nome, mail, cidade, estado, conheceu, mensagem))) Then
       Response.write "<b>Erro ao enviar contato.</b>"
      Else
       Response.write "<font color=#848284 size=1 face=Verdana><b>Obrigado!</b><br><br>Seu contato foi enviado com sucesso.</font><br><br><br><br><br><font color=#603913 size=1 face=Verdana, Arial, Helvetica, sans-serif><a href=../contatos/contatos.asp><font color=#848284 size=1 face=Verdana>&laquo; voltar</font></a></font><br><br><br><br><br><br><br><br><br><br><br><br><br>"
