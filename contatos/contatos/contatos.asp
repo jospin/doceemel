@@ -115,9 +115,9 @@
                           </table>
 
                         </td>
-                        <td width="220" valign="top">
+                        <td width="250" valign="top">
                           <div align="center"><img src="imgs/img_contatos.jpg" width="214" height="196">
-                              <span style="font-size:15px; color:#000;">F: (11) 4701-2947 ou (11) 98980-7841</span>
+                            <span style="font-family:Verdana, Arial; color: #925B15; font-weight:bold; font-size:16px;">F: (11) 4701-2947 ou <br />Cel: (11) 9 6522 8980</span>
                           </div>
                         </td>
                       </tr>
