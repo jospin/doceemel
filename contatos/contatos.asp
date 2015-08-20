@@ -65,9 +65,7 @@
                     <img src="imgs/tl_contatos.gif" width="70" height="14">
                   </p>
                   <p class="font_cinza">
-                    <%
-         If Request.ServerVariables("Content_Length") = 0 Then
-%>
+                    <% If Request.ServerVariables("Content_Length") = 0 Then %>
                     Entre em contato conosco. <br>
                     Tire suas d&uacute;vidas, <span class="font_marrom">encomende
                     nossos produtos</span> ou tamb&eacute;m <span class="font_marrom">sugira
@@ -141,10 +139,10 @@ Else
      conheceu = Request.Form("conheceu")
      mensagem = Request.Form("mensagem")
 
-     If (EnviarMail(mail, "doceemel@live.com", ":: Contato Site Doce&Mel ::", MontaMsg(nome, mail, cidade, estado, conheceu, mensagem))) Then
+     If (EnviarMail(mail, "lucien.carbonare@gmail.com", nome, ":: Contato Site Doce&Mel ::", MontaMsg(nome, mail, cidade, estado, conheceu, mensagem))) Then
       Response.write "<b>Erro ao enviar contato.</b>"
      Else
-      Response.write "<font color=#848284 size=1 face=Verdana><b>Obrigado!</b><br><br>Seu contato foi enviado com sucesso.</font><br><br><br><br><br><font color=#603913 size=1 face=Verdana, Arial, Helvetica, sans-serif><a href=../contatos/contatos.asp><font color=#848284 size=1 face=Verdana>&laquo; voltar</font></a></font><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+      Response.write "<font color=#848284 size=1 face=Verdana><b>Obrigado!</b><br><br>Seu contato foi enviado com sucesso.</font><br><br><br><br><br><font color=#603913 size=1 face=Verdana, Arial, Helvetica, sans-serif><a href=../contatos/contatos.asp><font color=#848284 size=1 face=Verdana>&laquo; Voltar</font></a></font><br><br><br><br><br><br><br><br><br><br><br><br><br>"
      End If
 End If
 %> </td>
